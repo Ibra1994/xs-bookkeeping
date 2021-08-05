@@ -19,8 +19,6 @@ class CreateOperationsTable extends Migration
             $table->integer('to_entity_id');
             $table->integer('quantity');
             $table->timestamps();
-            $table->integer('created_by');
-            $table->integer('updated_by');
         });
     }
 

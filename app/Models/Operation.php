@@ -13,7 +13,5 @@ class Operation extends Model
       'from_entity_id',
       'to_entity_id ',
       'quantity',
-      'created_by',
-      'updated_by',
     ];
 }
